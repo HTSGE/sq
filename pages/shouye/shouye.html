@@ -10,7 +10,7 @@
     <script type="text/javascript" src="./shouye.js"></script>
   </head>
   <body>
-    <div class="flex-col page space-y-37">
+    <div class="flex-col page space-y-32">
       <div class="flex-col">
         <div class="flex-col space-y-19">
           <div class="flex-col section space-y-20" @click="onClick">
@@ -24,13 +24,13 @@
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281799204945.png"
                 @click="onClick_1"
               />
-              <span class="font_1 text_3">游戏动态</span>
+              <span class="font_1 text_3">动态</span>
             </div>
             <div class="flex-col items-center equal-division-item space-y-12">
               <img
                 class="image"
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281836792784.png"
-                onclick="onClick_2()"
+                @click="onClick_2"
               />
               <span class="font_1 text_4">公告</span>
             </div>
@@ -51,43 +51,52 @@
               <span class="font_1">配音</span>
             </div>
           </div>
-          <span class="self-start font_2 text_6">快速入口</span>
-          <div class="flex-row group space-x-12">
-            <div class="flex-row flex-auto space-x-12">
-              <div class="flex-col items-start section_2" @click="onClick_5">
-                <img
-                  class="shrink-0 image_3"
-                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/425f53851de10099b93d31f2335a3153.png"
-                />
-                <span class="font_3 text_7">内测消息</span>
-                <span class="font_4 text_8">114 个</span>
-              </div>
-              <div class="flex-col items-start section_2" @click="onClick_6">
+          <span class="self-start font_2 text_6">快捷</span>
+          <div class="flex-row group space-x-13">
+            <div class="flex-row flex-auto space-x-13">
+              <div class="flex-col items-start section_2 space-y-8" @click="onClick_5">
                 <img
                   class="shrink-0 image_4"
-                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646286279475012.png"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821731976161887152.png"
                 />
-                <span class="font_3 text_7">游戏福利</span>
-                <span class="font_4 text_8">514 个</span>
+                <span class="font_3">游戏福利</span>
+                <span class="font_4">514 个</span>
+              </div>
+              <div class="flex-col section_2" @click="onClick_6">
+                <div class="flex-col items-start">
+                  <img
+                    class="image_5"
+                    src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/5d0a762210de20f1667f5cde00d159fa.png"
+                  />
+                  <img
+                    class="image_6"
+                    src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821731976268435884.png"
+                  />
+                </div>
+                <span class="self-start font_3 text_8">问卷调查</span>
+                <span class="self-start font_4 text_9">3 分钟</span>
               </div>
             </div>
             <div class="flex-col shrink-0 group_2 space-y-9">
-              <div class="flex-col items-start section_3 space-y-6" @click="onClick_7">
-                <span class="font_3">问卷调查</span>
-                <span class="font_4">3 分钟</span>
+              <div class="flex-col items-center section_3 space-y-4" @click="onClick_7">
+                <img
+                  class="shrink-0 image_3"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821731976192902772.png"
+                />
+                <span class="font_3 text_7">反馈社区</span>
               </div>
               <div class="flex-col justify-start items-center text-wrapper" @click="onClick_8">
-                <span class="font_3">反馈社区</span>
+                <span class="font_3 text_10">QQ 群聊</span>
               </div>
             </div>
           </div>
         </div>
-        <span class="self-start font_2 text_9">最近</span>
+        <span class="self-start font_2 text_11">最近</span>
         <div class="flex-col list space-y-28">
-          <div class="flex-row justify-between items-center">
+          <div class="flex-col justify-start items-start" @click="onClick_9">
             <div class="flex-row items-center space-x-12">
               <img
-                class="image_5"
+                class="image_7"
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281919175931.png"
               />
               <div class="flex-col items-start space-y-6">
@@ -95,15 +104,11 @@
                 <span class="font_5">115.5.14</span>
               </div>
             </div>
-            <img
-              class="image_6"
-              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281889231966.png"
-            />
           </div>
-          <div class="flex-row justify-between items-center">
+          <div class="flex-col justify-start items-start" @click="onClick_10">
             <div class="flex-row items-center space-x-12">
               <img
-                class="image_5"
+                class="image_7"
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281929630581.png"
               />
               <div class="flex-col items-start space-y-6">
@@ -111,15 +116,11 @@
                 <span class="font_5">1145.5.14</span>
               </div>
             </div>
-            <img
-              class="image_6"
-              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281889231966.png"
-            />
           </div>
-          <div class="flex-row justify-between items-center">
+          <div class="flex-col justify-start items-start" @click="onClick_11">
             <div class="flex-row items-center space-x-12">
               <img
-                class="image_5"
+                class="image_7"
                 src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646285447279640.png"
               />
               <div class="flex-col items-start space-y-6">
@@ -127,23 +128,19 @@
                 <span class="font_5">1145/5/14</span>
               </div>
             </div>
-            <img
-              class="image_6"
-              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281889231966.png"
-            />
           </div>
         </div>
       </div>
-      <div class="flex-col items-center space-y-10">
+      <div class="flex-col items-center space-y-15">
         <img
-          class="image_7"
+          class="image_9"
           src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821653493528259353.png"
-          @click="onClick_9"
+          @click="onClick_12"
         />
         <img
-          class="image_7"
+          class="image_9"
           src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821653493555984195.png"
-          @click="onClick_10"
+          @click="onClick_13"
         />
       </div>
     </div>
