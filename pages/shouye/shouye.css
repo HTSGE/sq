@@ -1,0 +1,184 @@
+.page {
+  padding: 2.5rem 0 2rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.space-y-37 > *:not(:first-child) {
+  margin-top: 2.31rem;
+}
+.space-y-19 > *:not(:first-child) {
+  margin-top: 1.19rem;
+}
+.section {
+  margin: 0 1.5rem;
+  padding: 1.88rem 0.63rem 1.5rem;
+  border-radius: 1.25rem;
+  filter: drop-shadow(0px 1.56rem 1.97rem #05050533);
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821649266199309684.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.space-y-20 > *:not(:first-child) {
+  margin-top: 1.25rem;
+}
+.text {
+  margin-left: 0.38rem;
+  color: #ffffff;
+  font-size: 0.94rem;
+  font-family: AlimamaShuHeiTi;
+  line-height: 0.88rem;
+  text-shadow: 0px 0.13rem 0.25rem #0000001a;
+}
+.font_1 {
+  font-size: 0.75rem;
+  font-family: SourceHanSansCN;
+  line-height: 0.72rem;
+  color: #140b38;
+}
+.text_2 {
+  color: #ffffff;
+  font-size: 0.81rem;
+  line-height: 1rem;
+}
+.equal-division {
+  padding: 0 0.5rem;
+}
+.space-x-6 > *:not(:first-child) {
+  margin-left: 0.38rem;
+}
+.equal-division-item {
+  flex: 1 1 5.59rem;
+  padding: 0.38rem 0;
+}
+.space-y-12 > *:not(:first-child) {
+  margin-top: 0.75rem;
+}
+.image {
+  border-radius: 1.13rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.text_3 {
+  line-height: 0.69rem;
+}
+.text_4 {
+  line-height: 0.69rem;
+}
+.text_5 {
+  line-height: 0.69rem;
+}
+.image_2 {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: SourceHanSansCN;
+  line-height: 0.94rem;
+  font-weight: 700;
+  color: #140b38;
+}
+.text_6 {
+  margin-left: 1.63rem;
+}
+.group {
+  padding-left: 1.56rem;
+  padding-right: 1.31rem;
+}
+.space-x-12 > *:not(:first-child) {
+  margin-left: 0.75rem;
+}
+.section_2 {
+  flex: 1 1 6.81rem;
+  padding: 0.75rem 1rem;
+  background-color: #f2f4fa;
+  border-radius: 0.88rem;
+  overflow: hidden;
+  height: 6.13rem;
+}
+.image_3 {
+  width: 1.81rem;
+  height: 2rem;
+}
+.font_3 {
+  font-size: 0.75rem;
+  font-family: SourceHanSansCN;
+  line-height: 0.72rem;
+  font-weight: 700;
+  color: #140b38;
+}
+.text_7 {
+  margin-top: 0.75rem;
+}
+.font_4 {
+  font-size: 0.63rem;
+  font-family: SourceHanSansCN;
+  line-height: 0.59rem;
+  color: #140b3880;
+}
+.text_8 {
+  margin-top: 0.38rem;
+}
+.image_4 {
+  width: 2rem;
+  height: 2rem;
+}
+.group_2 {
+  width: 5.44rem;
+}
+.space-y-9 > *:not(:first-child) {
+  margin-top: 0.56rem;
+}
+.section_3 {
+  padding: 0.75rem 0.88rem;
+  background-color: #f2f4fa;
+  border-radius: 0.88rem;
+  overflow: hidden;
+}
+.space-y-6 > *:not(:first-child) {
+  margin-top: 0.38rem;
+}
+.text-wrapper {
+  padding: 0.75rem 0;
+  background-color: #f2f4fa;
+  border-radius: 0.88rem;
+  overflow: hidden;
+  width: 5.38rem;
+}
+.text_9 {
+  margin-left: 1.75rem;
+  margin-top: 2.13rem;
+}
+.list {
+  margin-top: 1.5rem;
+  padding-left: 1.69rem;
+  padding-right: 1.31rem;
+}
+.space-y-28 > *:not(:first-child) {
+  margin-top: 1.75rem;
+}
+.image_5 {
+  border-radius: 0.78rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.font_5 {
+  font-size: 0.63rem;
+  font-family: HarmonyOSSansTC;
+  line-height: 0.47rem;
+  color: #140b3880;
+}
+.image_6 {
+  width: 1rem;
+  height: 1rem;
+}
+.space-y-10 > *:not(:first-child) {
+  margin-top: 0.63rem;
+}
+.image_7 {
+  width: 22.31rem;
+  height: 9.5rem;
+}

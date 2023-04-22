@@ -1,0 +1,45 @@
+.page {
+  padding: 2.38rem 1.88rem 7.06rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.space-y-34 > *:not(:first-child) {
+  margin-top: 2.13rem;
+}
+.font_1 {
+  font-size: 1.5rem;
+  font-family: HarmonyOSSansSC;
+  line-height: 1.38rem;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+.text {
+  line-height: 1.41rem;
+}
+.list-item {
+  padding-bottom: 1.25rem;
+  background-color: #ffffff;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  border: solid 0.063rem #e7e6e4;
+}
+.image {
+  width: 19.75rem;
+  height: 8.69rem;
+}
+.text_2 {
+  margin-left: 1.5rem;
+  margin-top: 1.13rem;
+}
+.font_2 {
+  font-size: 0.63rem;
+  font-family: HarmonyOSSansSC;
+  line-height: 0.66rem;
+  color: #767a82;
+}
+.text_3 {
+  margin-top: 0.63rem;
+}

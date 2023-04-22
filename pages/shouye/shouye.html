@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codefun</title>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./shouye.css" />
+    <script type="text/javascript" src="./shouye.js"></script>
+  </head>
+  <body>
+    <div class="flex-col page space-y-37">
+      <div class="flex-col">
+        <div class="flex-col space-y-19">
+          <div class="flex-col section space-y-20" @click="onClick">
+            <span class="self-start text">【思芊】1.0 版本更新</span>
+            <span class="font_1 text_2">本次更新主要新增了：1.0 剧情，新角色韩云雁，人物好感度系统等......</span>
+          </div>
+          <div class="flex-row equal-division space-x-6">
+            <div class="flex-col items-center equal-division-item space-y-12">
+              <img
+                class="image"
+                src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281799204945.png"
+                @click="onClick_1"
+              />
+              <span class="font_1 text_3">游戏动态</span>
+            </div>
+            <div class="flex-col items-center equal-division-item space-y-12">
+              <img
+                class="image"
+                src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281836792784.png"
+                onclick="onClick_2()"
+              />
+              <span class="font_1 text_4">公告</span>
+            </div>
+            <div class="flex-col items-center equal-division-item space-y-12">
+              <img
+                class="image"
+                src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281862147874.png"
+                @click="onClick_3"
+              />
+              <span class="font_1 text_5">视频</span>
+            </div>
+            <div class="flex-col items-center equal-division-item space-y-12">
+              <img
+                class="image_2"
+                src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/91ad3f8dac5d78fcf6371a58570ab949.png"
+                @click="onClick_4"
+              />
+              <span class="font_1">配音</span>
+            </div>
+          </div>
+          <span class="self-start font_2 text_6">快速入口</span>
+          <div class="flex-row group space-x-12">
+            <div class="flex-row flex-auto space-x-12">
+              <div class="flex-col items-start section_2" @click="onClick_5">
+                <img
+                  class="shrink-0 image_3"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/425f53851de10099b93d31f2335a3153.png"
+                />
+                <span class="font_3 text_7">内测消息</span>
+                <span class="font_4 text_8">114 个</span>
+              </div>
+              <div class="flex-col items-start section_2" @click="onClick_6">
+                <img
+                  class="shrink-0 image_4"
+                  src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646286279475012.png"
+                />
+                <span class="font_3 text_7">游戏福利</span>
+                <span class="font_4 text_8">514 个</span>
+              </div>
+            </div>
+            <div class="flex-col shrink-0 group_2 space-y-9">
+              <div class="flex-col items-start section_3 space-y-6" @click="onClick_7">
+                <span class="font_3">问卷调查</span>
+                <span class="font_4">3 分钟</span>
+              </div>
+              <div class="flex-col justify-start items-center text-wrapper" @click="onClick_8">
+                <span class="font_3">反馈社区</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="self-start font_2 text_9">最近</span>
+        <div class="flex-col list space-y-28">
+          <div class="flex-row justify-between items-center">
+            <div class="flex-row items-center space-x-12">
+              <img
+                class="image_5"
+                src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281919175931.png"
+              />
+              <div class="flex-col items-start space-y-6">
+                <span class="font_3">官方PV-论刘傻鱼的三百种做法</span>
+                <span class="font_5">115.5.14</span>
+              </div>
+            </div>
+            <img
+              class="image_6"
+              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281889231966.png"
+            />
+          </div>
+          <div class="flex-row justify-between items-center">
+            <div class="flex-row items-center space-x-12">
+              <img
+                class="image_5"
+                src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281929630581.png"
+              />
+              <div class="flex-col items-start space-y-6">
+                <span class="font_3">新人物设定-韩云雁</span>
+                <span class="font_5">1145.5.14</span>
+              </div>
+            </div>
+            <img
+              class="image_6"
+              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281889231966.png"
+            />
+          </div>
+          <div class="flex-row justify-between items-center">
+            <div class="flex-row items-center space-x-12">
+              <img
+                class="image_5"
+                src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646285447279640.png"
+              />
+              <div class="flex-col items-start space-y-6">
+                <span class="font_3">版本更新公告！</span>
+                <span class="font_5">1145/5/14</span>
+              </div>
+            </div>
+            <img
+              class="image_6"
+              src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821646281889231966.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="flex-col items-center space-y-10">
+        <img
+          class="image_7"
+          src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821653493528259353.png"
+          @click="onClick_9"
+        />
+        <img
+          class="image_7"
+          src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/63247bfa5a7e3f03106287e7/6443cb76b98f5d001164bfe3/16821653493555984195.png"
+          @click="onClick_10"
+        />
+      </div>
+    </div>
+  </body>
+</html>
